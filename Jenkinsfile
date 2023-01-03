@@ -7,8 +7,8 @@ pipeline {
     stage('Checkout Source') {
       steps {
         git branch: "main",
-          // credentialsId: 'cfd6c76a-406c-4a8f-af8c-13d907ef0d4b',
-          url: 'git@github.com:spinningops/website-pipeline-demo.git'
+          credentialsId: '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',
+          url: 'https://github.com/luis-konex/test.git'
       }
     }
 
